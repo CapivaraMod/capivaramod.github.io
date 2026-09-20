@@ -58,7 +58,7 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 import twIcon from './tw/tw.svg';
 import customExtensionIcon from './custom/custom.svg';
 import returnIcon from './custom/return.svg';
-import galleryIcon from './gallery/gallery.svg';
+import galleryIcon from './gallery/gallery.png';
 import { APP_NAME } from '../../brand';
 
 export default [
@@ -170,7 +170,7 @@ export default [
             />
         ),
         extensionId: 'faceSensing',
-        extensionURL: 'https://extensions.turbowarp.org/lab/face-sensing.js',
+        extensionURL: 'https://capivaramod.github.io/extensions//lab/face-sensing.js',
         iconURL: faceSensingIconURL,
         insetIconURL: faceSensingInsetIconURL,
         description: (
@@ -482,7 +482,7 @@ export const galleryLoading = {
             }}
         />
     ),
-    href: 'https://extensions.turbowarp.org/',
+    href: 'https://capivaramod.github.io/extensions/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
@@ -508,13 +508,13 @@ export const galleryMore = {
             }}
         />
     ),
-    href: 'https://extensions.turbowarp.org/',
+    href: 'https://capivaramod.github.io/extensions/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
         <FormattedMessage
-            // eslint-disable-next-line max-len
-            defaultMessage="Learn more about extensions at extensions.turbowarp.org."
+        
+            defaultMessage="Learn more about extensions at capivaramod.github.io/extensions/."
             description="Appears after the extension list from the gallery was loaded successfully"
             id="tw.extensionGallery.more"
         />
@@ -534,13 +534,13 @@ export const galleryError = {
             }}
         />
     ),
-    href: 'https://extensions.turbowarp.org/',
+    href: 'https://capivaramod.github.io/extensions/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
         <FormattedMessage
-            // eslint-disable-next-line max-len
-            defaultMessage="Error loading extension gallery. Visit extensions.turbowarp.org to find more extensions."
+
+            defaultMessage="Error loading extension gallery. Visit capivaramod.github.io/extensions/ to find more extensions."
             description="Appears when an error occurred loading extension list from the custom extension gallery"
             id="tw.extensionGallery.error"
         />
