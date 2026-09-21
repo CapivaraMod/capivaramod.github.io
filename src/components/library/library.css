@@ -28,10 +28,12 @@
     background-color: $looks-transparent;
     padding: 0 1rem;
     font-size: .875rem;
+    border-radius: 0 0 2rem 2rem ;
 }
 
 .filter-bar-item {
     margin-right: .75rem;
+    transition: .2s;
 }
 
 .filter {

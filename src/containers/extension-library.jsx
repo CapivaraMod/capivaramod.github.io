@@ -41,7 +41,7 @@ const translateGalleryItem = (extension, locale) => ({
 
 let cachedGallery = null;
 
-const fetchLibrary = async () => {
+const fetchTurboWarpLibrary = async () => {
     const res = await fetch('https://extensions.turbowarp.org/generated-metadata/extensions-v0.json');
     if (!res.ok) {
         throw new Error(`HTTP status ${res.status}`);
@@ -82,6 +82,54 @@ const fetchLibrary = async () => {
         incompatibleWithScratch: !extension.scratchCompatible,
         featured: true
     }));
+};
+
+const fetchCapivaraModLibrary = async () => {
+    const sourceURL = 'https://capivaramod.github.io/extensions/';
+    const res = await fetch(sourceURL);
+    if (!res.ok) {
+        throw new Error(`HTTP status ${res.status}`);
+    }
+
+    const document = new DOMParser().parseFromString(await res.text(), 'text/html');
+    return Array.from(document.querySelectorAll('.extension')).map(extension => {
+        const extensionURL = extension.querySelector('[data-copy]').getAttribute('data-copy');
+        const extensionId = extensionURL.replace(`${sourceURL}`, '').replace(/\.js$/, '');
+        const imageURL = extension.querySelector('.extension-image').getAttribute('src');
+
+        return {
+            name: extension.querySelector('h2').textContent.trim(),
+            nameTranslations: {},
+            description: extension.querySelector('p').textContent.trim(),
+            descriptionTranslations: {},
+            extensionId,
+            extensionURL,
+            iconURL: new URL(imageURL, sourceURL).href,
+            tags: ['cm'],
+            docsURI: null,
+            samples: null,
+            incompatibleWithScratch: true,
+            featured: true
+        };
+    });
+};
+
+const fetchLibrary = async () => {
+    const [turboWarpResult, capivaraModResult] = await Promise.all([
+        fetchTurboWarpLibrary().catch(error => {
+            log.error(error);
+            return [];
+        }),
+        fetchCapivaraModLibrary().catch(error => {
+            log.error(error);
+            return [];
+        })
+    ]);
+    const gallery = turboWarpResult.concat(capivaraModResult);
+    if (gallery.length === 0) {
+        throw new Error('Could not load any extension library');
+    }
+    return gallery;
 };
 
 class ExtensionLibrary extends React.PureComponent {

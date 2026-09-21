@@ -117,7 +117,7 @@ export default [
                 id="tw.imagemExtension.description"
             />
         ),
-        tags: ['tw'],
+        tags: ['cm'],
         featured: true,
         disabled: false,
         internetConnectionRequired: true
@@ -135,7 +135,7 @@ export default [
                 id="tw.capibExtension.description"
             />
         ),
-        tags: ['tw'],
+        tags: ['cm'],
         featured: true,
         disabled: false,
         internetConnectionRequired: false
@@ -427,7 +427,7 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="{APP_NAME} Blocks"
+                defaultMessage="TurboWarp Blocks"
                 description="Name of the strange 'TurboWarp Blocks' extension"
                 id="tw.twExtension.name"
                 values={{
@@ -474,8 +474,8 @@ export default [
 export const galleryLoading = {
     name: (
         <FormattedMessage
-            defaultMessage="{APP_NAME} Extension Gallery"
-            description="Name of extensions.turbowarp.org in extension library"
+            defaultMessage="CapivaraMod Extension Gallery"
+            description="Name of capivaramod.github.io/extensions/ in extension library"
             id="tw.extensionGallery.name"
             values={{
                 APP_NAME
@@ -493,15 +493,15 @@ export const galleryLoading = {
             id="tw.extensionGallery.loading"
         />
     ),
-    tags: ['tw'],
+    tags: ['cm'],
     featured: true
 };
 
 export const galleryMore = {
     name: (
         <FormattedMessage
-            defaultMessage="{APP_NAME} Extension Gallery"
-            description="Name of extensions.turbowarp.org in extension library"
+            defaultMessage="CapivaraMod Extension Gallery"
+            description="Name of capivaramod.github.io/extensions/ in extension library"
             id="tw.extensionGallery.name"
             values={{
                 APP_NAME
@@ -519,15 +519,15 @@ export const galleryMore = {
             id="tw.extensionGallery.more"
         />
     ),
-    tags: ['tw'],
+    tags: ['cm'],
     featured: true
 };
 
 export const galleryError = {
     name: (
         <FormattedMessage
-            defaultMessage="{APP_NAME} Extension Gallery"
-            description="Name of extensions.turbowarp.org in extension library"
+            defaultMessage="CapivaraMod Extension Gallery"
+            description="Name of capivaramod.github.io/extensions/ in extension library"
             id="tw.extensionGallery.name"
             values={{
                 APP_NAME
@@ -545,6 +545,6 @@ export const galleryError = {
             id="tw.extensionGallery.error"
         />
     ),
-    tags: ['tw'],
+    tags: ['cm'],
     featured: true
 };
