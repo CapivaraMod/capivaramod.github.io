@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily" # Verifica atualizações todos os dias
+    
+    # Filtro para focar apenas na dependência do scratch-vm
+    allow:
+      - package-name: "scratch-vm"
