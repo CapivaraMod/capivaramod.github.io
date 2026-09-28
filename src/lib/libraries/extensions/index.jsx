@@ -124,15 +124,15 @@ export default [
     },
     {
         name: 'Capivara Blocks',
-        extensionId: 'capib',
+        extensionId: 'capivaramod',
         collaborator: 'CapivaraMod',
         iconURL: capivarablockIconURL,
         insetIconURL: capivarablockInsetIconURL,
         description: (
             <FormattedMessage
                 defaultMessage="Redimensione imagens, consulte largura e altura e gerencie o cache."
-                description="Description for the 'capib' extension"
-                id="tw.capibExtension.description"
+                description="Description for the 'capivaramod' extension"
+                id="tw.capivaramodExtension.description"
             />
         ),
         tags: ['cm'],
