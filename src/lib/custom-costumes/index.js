@@ -6,6 +6,8 @@
 
 /* eslint-disable import/no-unresolved */
 import capivara from '!raw-loader!./capivara.svg';
+import linha from '!raw-loader!./-.png'
+
 /* eslint-enable import/no-unresolved */
 
 import {TextEncoder} from '../tw-text-encoder';
@@ -15,6 +17,11 @@ const CUSTOM_COSTUMES = [
         assetId: 'c9f03a6e0a8997ad0a541af2f8382650',
         dataFormat: 'svg',
         data: capivara
+    },
+    {
+        assetId: 'linhafantasia',
+        dataFormat: 'png',
+        data: linha
     }
 ];
 

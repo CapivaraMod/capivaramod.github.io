@@ -5,8 +5,10 @@
 // no CDN oficial do Scratch (onde o asset não existe).
 
 import capivaraURL from './capivara.svg';
+import linhaURL from './-.png';
 
 const CUSTOM_COSTUME_THUMBNAILS = {
-    'c9f03a6e0a8997ad0a541af2f8382650.svg': capivaraURL
+    'c9f03a6e0a8997ad0a541af2f8382650.svg': capivaraURL,
+    'linhafantasia.png': linhaURL
 };
 export default CUSTOM_COSTUME_THUMBNAILS;
