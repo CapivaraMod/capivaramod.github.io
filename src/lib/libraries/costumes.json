@@ -13,6 +13,162 @@
         "rotationCenterY": 45.86769151970128
     },
     {
+        "name": "0 pixel art 3d",
+        "tags": [
+            "alphabet",
+            "numbers"
+        ],
+        "assetId": "d21217c351f829fca2fbfbc29263f27c",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "d21217c351f829fca2fbfbc29263f27c.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "1 pixel art 3d",
+        "tags": [
+            "alphabet",
+            "numbers"
+        ],
+        "assetId": "0d583fd22c651923f8abc98e95a7505d",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "0d583fd22c651923f8abc98e95a7505d.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "2 pixel art 3d",
+        "tags": [
+            "alphabet",
+            "numbers"
+        ],
+        "assetId": "1be39fc5196bff0f98f1e52c900eef4f",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "1be39fc5196bff0f98f1e52c900eef4f.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "3 pixel art 3d",
+        "tags": [
+            "alphabet",
+            "numbers"
+        ],
+        "assetId": "cc09591528e90ad8bf070f7eed9181a7",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "cc09591528e90ad8bf070f7eed9181a7.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "4 pixel art 3d",
+        "tags": [
+            "alphabet",
+            "numbers"
+        ],
+        "assetId": "dcad369bd530a6128424343cc8e67531",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "dcad369bd530a6128424343cc8e67531.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "5 pixel art 3d",
+        "tags": [
+            "alphabet",
+            "numbers"
+        ],
+        "assetId": "daca3b9e8fcf379bd48aede9d4702442",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "daca3b9e8fcf379bd48aede9d4702442.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "6 pixel art 3d",
+        "tags": [
+            "alphabet",
+            "numbers"
+        ],
+        "assetId": "703f8fbb5eae0fbbe4ec20a8b38d290d",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "703f8fbb5eae0fbbe4ec20a8b38d290d.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "7 pixel art 3d",
+        "tags": [
+            "alphabet",
+            "numbers"
+        ],
+        "assetId": "bcd840480bd2fe310a5ffe5d9c35aada",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "bcd840480bd2fe310a5ffe5d9c35aada.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "8 pixel art 3d",
+        "tags": [
+            "alphabet",
+            "numbers"
+        ],
+        "assetId": "e505a6a46f06fae935ef188b0fdbe7e7",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "e505a6a46f06fae935ef188b0fdbe7e7.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "9 pixel art 3d",
+        "tags": [
+            "alphabet",
+            "numbers"
+        ],
+        "assetId": "09beff0cbdb7299ebfcfaf33570eb95f",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "09beff0cbdb7299ebfcfaf33570eb95f.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "+ pixel art 3d",
+        "tags": [
+            "alphabet",
+            "letters"
+        ],
+        "assetId": "5b0fd81f21a81f7fae3318350dc14c73",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "5b0fd81f21a81f7fae3318350dc14c73.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "- pixel art 3d",
+        "tags": [
+            "alphabet",
+            "letters"
+        ],
+        "assetId": "354b2a84ac960015af78988729cca574",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "354b2a84ac960015af78988729cca574.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
         "name": "Abby-a",
         "tags": [
             "people",
