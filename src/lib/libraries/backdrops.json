@@ -1,4 +1,99 @@
-[
+[   
+    {
+        "name": "Amazônia",
+        "tags": [
+            "custom",
+            "brasil",
+            "forest"
+        ],
+        "assetId": "484ea3ba96f67dd99ee551d9e35497b9",
+        "bitmapResolution": 4.267,
+        "dataFormat": "png",
+        "md5ext": "484ea3ba96f67dd99ee551d9e35497b9.png",
+        "rotationCenterX": 1024.0,
+        "rotationCenterY": 515.5
+    },
+    {
+        "name": "Caatinga",
+        "tags": [
+            "custom",
+            "brasil",
+            "desert"
+        ],
+        "assetId": "88a8a4754769b43dba49c73782e80c24",
+        "bitmapResolution": 4.0,
+        "dataFormat": "png",
+        "md5ext": "88a8a4754769b43dba49c73782e80c24.png",
+        "rotationCenterX": 960.0,
+        "rotationCenterY": 540.0
+    },
+    {
+        "name": "Cerrado",
+        "tags": [
+            "custom",
+            "brasil"
+        ],
+        "assetId": "161c466cd087841ead1a6246a33b77bf",
+        "bitmapResolution": 4.0,
+        "dataFormat": "png",
+        "md5ext": "161c466cd087841ead1a6246a33b77bf.png",
+        "rotationCenterX": 960.0,
+        "rotationCenterY": 540.0
+    },
+    {
+        "name": "Espaço de voxel",
+        "tags": [
+            "custom",
+            "voxel",
+            "space"
+        ],
+        "assetId": "a0f1ba4e0323a350e79c0a882d02d7e4",
+        "bitmapResolution": 4.0,
+        "dataFormat": "png",
+        "md5ext": "a0f1ba4e0323a350e79c0a882d02d7e4.png",
+        "rotationCenterX": 960.0,
+        "rotationCenterY": 540.0
+    },
+    {
+        "name": "Paisagem de Voxel",
+        "tags": [
+            "custom",
+            "voxel",
+            "outdoors"
+        ],
+        "assetId": "c78af54c9b0fdf3fac03b37bcfde361e",
+        "bitmapResolution": 3.0,
+        "dataFormat": "png",
+        "md5ext": "c78af54c9b0fdf3fac03b37bcfde361e.png",
+        "rotationCenterX": 720.0,
+        "rotationCenterY": 405.0
+    },
+    {
+        "name": "Pampa",
+        "tags": [
+            "custom",
+            "brasil",
+            "outdoors"
+        ],
+        "assetId": "40929a56cc23990254b6f13366bda3d4",
+        "bitmapResolution": 4.054,
+        "dataFormat": "png",
+        "md5ext": "40929a56cc23990254b6f13366bda3d4.png",
+        "rotationCenterX": 973.0,
+        "rotationCenterY": 514.0
+    },
+    {
+        "name": "Cenário de teste",
+        "tags": [
+            "custom"
+        ],
+        "assetId": "1964d8e0aab729226da1275a460733b5",
+        "bitmapResolution": 2.667,
+        "dataFormat": "png",
+        "md5ext": "1964d8e0aab729226da1275a460733b5.png",
+        "rotationCenterX": 640.0,
+        "rotationCenterY": 360.0
+    },
     {
         "name": "Arctic",
         "tags": [
@@ -1180,17 +1275,5 @@
         "md5ext": "3b8bcabd0ac683b7cb3673208039764b.png",
         "rotationCenterX": 480,
         "rotationCenterY": 360
-    },
-    {
-        "name": "Fundo 1",
-        "tags": [
-            "custom"
-        ],
-        "assetId": "fundo1backdrop000000000000000001",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "fundo1backdrop000000000000000001.svg",
-        "rotationCenterX": 330.39999389648443,
-        "rotationCenterY": 201.10000610351562
     }
 ]

@@ -17,6 +17,27 @@ import pixel_8 from '!arraybuffer-loader!./8.png';
 import pixel_9 from '!arraybuffer-loader!./9.png';
 import pixel_mais from '!arraybuffer-loader!./+.png';
 import pixel_menos from '!arraybuffer-loader!./-.png';
+import img_16bit_0001 from '!arraybuffer-loader!./16bit-0001.png';
+import img_16bit_0002 from '!arraybuffer-loader!./16bit-0002.png';
+import img_16bit_0003 from '!arraybuffer-loader!./16bit-0003.png';
+import img_16bit_0004 from '!arraybuffer-loader!./16bit-0004.png';
+import img_16bit_0005 from '!arraybuffer-loader!./16bit-0005.png';
+import img_16bit_0006 from '!arraybuffer-loader!./16bit-0006.png';
+import img_16bit_0007 from '!arraybuffer-loader!./16bit-0007.png';
+import img_16bit_0008 from '!arraybuffer-loader!./16bit-0008.png';
+import img_16bit_0010 from '!arraybuffer-loader!./16bit-0010.png';
+import img_16bit_cara_normal from '!arraybuffer-loader!./16bit-cara-normal.png';
+import img_16bit_cara_triste from '!arraybuffer-loader!./16bit-cara-triste.png';
+import img_16bit_cara_brava from '!arraybuffer-loader!./16bit-cara-brava.png';
+import img_16bit_piscando from '!arraybuffer-loader!./16bit-piscando.png';
+import img_voxel_arvore from '!arraybuffer-loader!./voxel-arvore.png';
+import img_voxel_folha from '!arraybuffer-loader!./voxel-folha.png';
+import img_voxel_tronco from '!arraybuffer-loader!./voxel-tronco.png';
+import img_forma_cubo from '!arraybuffer-loader!./forma-cubo.png';
+import img_forma_esfera from '!arraybuffer-loader!./forma-esfera.png';
+import img_forma_piramide from '!arraybuffer-loader!./forma-piramide.png';
+import img_forma_plano from '!arraybuffer-loader!./forma-plano.png';
+import img_forma_toro from '!arraybuffer-loader!./forma-toro.png';
 /* eslint-enable import/no-unresolved */
 
 import {TextEncoder} from '../tw-text-encoder';
@@ -99,6 +120,132 @@ const CUSTOM_COSTUMES = [
         dataFormat: 'png',
         assetType: 'ImageBitmap',
         data: pixel_menos
+    },
+    {
+        assetId: '8f6a55fe64ab8b8bbcf477b06c4058de',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_0001
+    },
+    {
+        assetId: '0f3874207ef32409f4cd4fa2eedd0834',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_0002
+    },
+    {
+        assetId: '793ad4dbda270a957313694c2287ad3b',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_0003
+    },
+    {
+        assetId: '0b2e444a3b6028b677275c5657f24490',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_0004
+    },
+    {
+        assetId: '67cce954c83daaea0adcdb3e3d1989c7',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_0005
+    },
+    {
+        assetId: '404862ac991dd122c3dc8f1cf63633e2',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_0006
+    },
+    {
+        assetId: '2d033cb72cb543ed6cdcad97e20996a8',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_0007
+    },
+    {
+        assetId: '99a4ccad0ca41ce272235a1ce6503437',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_0008
+    },
+    {
+        assetId: '7f84de3cc11ceff67e5bc82bb7bfb252',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_0010
+    },
+    {
+        assetId: 'e130dcd1f25d6e63cf6c33cd65f4f96c',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_cara_normal
+    },
+    {
+        assetId: 'ef36ecc33cf4514b97ac626ae0ddec1f',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_cara_triste
+    },
+    {
+        assetId: '63c1a5cb5e998c0a50aa25f89dd59a0f',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_cara_brava
+    },
+    {
+        assetId: '25818fc0513f0e02c0272eac36aa08a3',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_16bit_piscando
+    },
+    {
+        assetId: 'bfb3b6464d706a922fd3f91c1be76276',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_voxel_arvore
+    },
+    {
+        assetId: '77cf47f593323ace8e0cb4b89f486d6e',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_voxel_folha
+    },
+    {
+        assetId: 'daacb396b5f57156c92d47804d5e6a54',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_voxel_tronco
+    },
+    {
+        assetId: 'b4512fd7eb05562a32a48c11b3b2108a',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_forma_cubo
+    },
+    {
+        assetId: '65313ef86a1385debbbb2ad9f2536e96',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_forma_esfera
+    },
+    {
+        assetId: '0c007e80b3121a7a930caf128fff8399',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_forma_piramide
+    },
+    {
+        assetId: '256194cdfeb8e780bf574b1f2e2b3e30',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_forma_plano
+    },
+    {
+        assetId: '73b4b937cb745ccf5f911f9cba047f7b',
+        dataFormat: 'png',
+        assetType: 'ImageBitmap',
+        data: img_forma_toro
     }
 ];
 

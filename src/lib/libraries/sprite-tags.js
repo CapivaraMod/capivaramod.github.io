@@ -8,5 +8,9 @@ export default [
     {tag: 'sports', intlLabel: messages.sports},
     {tag: 'food', intlLabel: messages.food},
     {tag: 'fashion', intlLabel: messages.fashion},
-    {tag: 'letters', intlLabel: messages.letters}
+    {tag: 'letters', intlLabel: messages.letters},
+    {tag: 'numbers', intlLabel: 'Números'},
+    {tag: '16bit', intlLabel: '16 bit'},
+    {tag: 'voxel', intlLabel: 'Voxel'},
+    {tag: 'shapes3d', intlLabel: 'Formas 3D'}
 ];

@@ -169,6 +169,266 @@
         "rotationCenterY": 360
     },
     {
+        "name": "0001 (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "8f6a55fe64ab8b8bbcf477b06c4058de",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "8f6a55fe64ab8b8bbcf477b06c4058de.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "0002 (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "0f3874207ef32409f4cd4fa2eedd0834",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "0f3874207ef32409f4cd4fa2eedd0834.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "0003 (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "793ad4dbda270a957313694c2287ad3b",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "793ad4dbda270a957313694c2287ad3b.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "0004 (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "0b2e444a3b6028b677275c5657f24490",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "0b2e444a3b6028b677275c5657f24490.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "0005 (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "67cce954c83daaea0adcdb3e3d1989c7",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "67cce954c83daaea0adcdb3e3d1989c7.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "0006 (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "404862ac991dd122c3dc8f1cf63633e2",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "404862ac991dd122c3dc8f1cf63633e2.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "0007 (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "2d033cb72cb543ed6cdcad97e20996a8",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "2d033cb72cb543ed6cdcad97e20996a8.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "0008 (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "99a4ccad0ca41ce272235a1ce6503437",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "99a4ccad0ca41ce272235a1ce6503437.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "0010 (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "7f84de3cc11ceff67e5bc82bb7bfb252",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "7f84de3cc11ceff67e5bc82bb7bfb252.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "Cara normal (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "e130dcd1f25d6e63cf6c33cd65f4f96c",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "e130dcd1f25d6e63cf6c33cd65f4f96c.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "Cara triste (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "ef36ecc33cf4514b97ac626ae0ddec1f",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "ef36ecc33cf4514b97ac626ae0ddec1f.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "Cara brava (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "63c1a5cb5e998c0a50aa25f89dd59a0f",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "63c1a5cb5e998c0a50aa25f89dd59a0f.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "Piscando (16 bit)",
+        "tags": [
+            "16bit"
+        ],
+        "assetId": "25818fc0513f0e02c0272eac36aa08a3",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "25818fc0513f0e02c0272eac36aa08a3.png",
+        "rotationCenterX": 64,
+        "rotationCenterY": 64
+    },
+    {
+        "name": "Arvore voxel (voxel)",
+        "tags": [
+            "voxel",
+            "tree"
+        ],
+        "assetId": "bfb3b6464d706a922fd3f91c1be76276",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "bfb3b6464d706a922fd3f91c1be76276.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "Folha voxel (voxel)",
+        "tags": [
+            "voxel",
+            "tree"
+        ],
+        "assetId": "77cf47f593323ace8e0cb4b89f486d6e",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "77cf47f593323ace8e0cb4b89f486d6e.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "tronco voxel (voxel)",
+        "tags": [
+            "voxel",
+            "tree"
+        ],
+        "assetId": "daacb396b5f57156c92d47804d5e6a54",
+        "bitmapResolution": 4,
+        "dataFormat": "png",
+        "md5ext": "daacb396b5f57156c92d47804d5e6a54.png",
+        "rotationCenterX": 360,
+        "rotationCenterY": 360
+    },
+    {
+        "name": "Cubo (forma 3D)",
+        "tags": [
+            "shapes3d",
+            "3d"
+        ],
+        "assetId": "b4512fd7eb05562a32a48c11b3b2108a",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "md5ext": "b4512fd7eb05562a32a48c11b3b2108a.png",
+        "rotationCenterX": 160,
+        "rotationCenterY": 160
+    },
+    {
+        "name": "Esfera (forma 3D)",
+        "tags": [
+            "shapes3d",
+            "3d"
+        ],
+        "assetId": "65313ef86a1385debbbb2ad9f2536e96",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "md5ext": "65313ef86a1385debbbb2ad9f2536e96.png",
+        "rotationCenterX": 160,
+        "rotationCenterY": 160
+    },
+    {
+        "name": "Piramide de Base Quadrada (forma 3D)",
+        "tags": [
+            "shapes3d",
+            "3d"
+        ],
+        "assetId": "0c007e80b3121a7a930caf128fff8399",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "md5ext": "0c007e80b3121a7a930caf128fff8399.png",
+        "rotationCenterX": 160,
+        "rotationCenterY": 160
+    },
+    {
+        "name": "Plano (forma 3D)",
+        "tags": [
+            "shapes3d",
+            "3d"
+        ],
+        "assetId": "256194cdfeb8e780bf574b1f2e2b3e30",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "md5ext": "256194cdfeb8e780bf574b1f2e2b3e30.png",
+        "rotationCenterX": 160,
+        "rotationCenterY": 160
+    },
+    {
+        "name": "Toro (forma 3D)",
+        "tags": [
+            "shapes3d",
+            "3d"
+        ],
+        "assetId": "73b4b937cb745ccf5f911f9cba047f7b",
+        "bitmapResolution": 2,
+        "dataFormat": "png",
+        "md5ext": "73b4b937cb745ccf5f911f9cba047f7b.png",
+        "rotationCenterX": 160,
+        "rotationCenterY": 160
+    },
+    {
         "name": "Abby-a",
         "tags": [
             "people",
