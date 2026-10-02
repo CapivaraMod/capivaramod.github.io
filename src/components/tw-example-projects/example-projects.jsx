@@ -7,23 +7,17 @@ import classNames from 'classnames';
 import log from '../../lib/log';
 import styles from './example-projects.css';
 
-// tw: lista local de projetos de exemplo.
-// Cada .sb3 fica em ./examples e é empacotado no build via arraybuffer-loader,
-// então não depende de scratch.mit.edu nem de internet para abrir.
-/* eslint-disable import/no-unresolved */
-import gato from '!arraybuffer-loader!./examples/exemploum.sb3';
+import terraelua from '!arraybuffer-loader!./examples/terraelua.sb3';
 
 
-import thumbGato from './examples/exemploum.png';
+import thumbTerraelua from './examples/terraelua.png';
 
-
-// Adicione/edite itens aqui para trocar os projetos de exemplo exibidos.
 const EXAMPLE_PROJECTS = [
     {
-        id: 'gato',
-        title: 'Exemplo: Gato dançando',
-        thumbnail: thumbGato,
-        data: gato
+        id: 'terraelua',
+        title: 'Terra e lua',
+        thumbnail: thumbTerraelua,
+        data: terraelua
     }
 ];
 
