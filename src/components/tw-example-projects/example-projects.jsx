@@ -8,9 +8,11 @@ import log from '../../lib/log';
 import styles from './example-projects.css';
 
 import terraelua from '!arraybuffer-loader!./examples/terraelua.sb3';
+import capivaraclicker from '!arraybuffer-loader!./examples/capivaraclicker.sb3';
 
 
 import thumbTerraelua from './examples/terraelua.png';
+import thumbCapivaraclicker from './examples/capivaraclicker.png';
 
 const EXAMPLE_PROJECTS = [
     {
@@ -18,6 +20,12 @@ const EXAMPLE_PROJECTS = [
         title: 'Terra e lua',
         thumbnail: thumbTerraelua,
         data: terraelua
+    },
+    {
+        id: 'capivaraclicker',
+        title: 'Capivara Clicker',
+        thumbnail: thumbCapivaraclicker,
+        data: capivaraclicker
     }
 ];
 
