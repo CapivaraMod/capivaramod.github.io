@@ -47,6 +47,7 @@
         much better ways to solve that (e.g. undo #2124, remove this flex-basis entirely). However, they run their own
         risks of breaking things, so let's just leave this as-is for the time being.
     */
+    /*parte modificar 6742*/
     flex-basis: calc(1024px - 408px - (($space + $stage-standard-border-width) * 2));
     flex-grow: 1;
     flex-shrink: 0;
@@ -211,6 +212,8 @@
     display: flex;
     flex-direction: column;
     /* pad entire wrapper to the left and right; allow children to fill width */
+
+    /* para modificar 6742 */
     padding-left: $space;
     padding-right: $space;
 

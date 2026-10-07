@@ -3226,7 +3226,7 @@
     "pt-br": {
         "tw.accent.blue": "Azul",
         "tw.accent.purple": "Roxo",
-        "tw.accent.red": "Vermelho",
+        "tw.accent.green": "Verde",
         "tw.alerts.creatingRestorePoint": "Criando ponto de restauração...",
         "tw.alerts.lostPeripheralConnection": "Conexão com {extensionName} foi perdida.",
         "tw.alerts.savedToDisk": "Salvo no seu computador.",

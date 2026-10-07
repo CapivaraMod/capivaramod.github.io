@@ -16,9 +16,9 @@ import styles from './settings-menu.css';
 
 const options = defineMessages({
     [ACCENT_RED]: {
-        defaultMessage: 'Red',
-        description: 'Name of the red color scheme, used by TurboWarp by default.',
-        id: 'tw.accent.red'
+        defaultMessage: 'Green',
+        description: 'Name of the green color scheme, used by CapivaraMod by default.',
+        id: 'tw.accent.green'
     },
     [ACCENT_PURPLE]: {
         defaultMessage: 'Purple',
