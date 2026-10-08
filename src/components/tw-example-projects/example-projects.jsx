@@ -10,11 +10,13 @@ import styles from './example-projects.css';
 import terraelua from '!arraybuffer-loader!./examples/terraelua.sb3';
 import capivaraclicker from '!arraybuffer-loader!./examples/capivaraclicker.sb3';
 import wikipediacapivaramod from '!arraybuffer-loader!./examples/wikipediacapivaramod.sb3';
+import flappybara from '!arraybuffer-loader!./examples/flappybara.sb3';
 
 
 import thumbTerraelua from './examples/terraelua.png';
 import thumbCapivaraclicker from './examples/capivaraclicker.png';
 import thumbWikipediacapivaramod from './examples/wikipediacapivaramod.png';
+import thumbFlappybara from './examples/flappybara.png';
 
 const EXAMPLE_PROJECTS = [
     {
@@ -30,10 +32,16 @@ const EXAMPLE_PROJECTS = [
         data: capivaraclicker
     },
     {
-        id: 'wikipedia capivaramod',
+        id: 'wikipediacapivaramod',
         title: 'Wikipédia Capivara Mod',
         thumbnail: thumbWikipediacapivaramod,
         data: wikipediacapivaramod
+    },
+    {
+        id: 'flappybara',
+        title: 'Flappybara',
+        thumbnail: thumbFlappybara,
+        data: flappybara
     }
 ];
 
