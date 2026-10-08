@@ -3310,6 +3310,8 @@
         "tw.menuBar.newFramerate": "Novo FPS:",
         "tw.menuBar.newWindow": "Nova janela",
         "tw.menuBar.package": "Exportar projeto",
+        "tw.menuBar.unpackager": "Desempacotador",
+        "tw.menuBar.obfuscator": "Ofuscador",
         "tw.menuBar.reportError1": "Alguns scripts apresentaram erros.",
         "tw.menuBar.reportError2": "Isso é um bug. Por favor, reporte-o.",
         "tw.menuBar.restorePoints": "Pontos de restauração",

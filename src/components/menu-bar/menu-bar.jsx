@@ -716,6 +716,19 @@ class MenuBar extends React.Component {
                                                     id="tw.menuBar.unpackager"
                                                 />
                                             </MenuItem>
+                                            <MenuItem
+                                                onClick={() =>
+                                                    window.open(
+                                                        `https://capivaramod.github.io/obfuscator`
+                                                    )
+                                                }
+                                            >
+                                                <FormattedMessage
+                                                    defaultMessage="Obfuscator"
+                                                    description="Menu bar item to open the capivaramod obfuscator"
+                                                    id="tw.menuBar.obfuscator"
+                                                />
+                                            </MenuItem>
                                         </MenuSection>
                                     )}
                                     <MenuSection>
