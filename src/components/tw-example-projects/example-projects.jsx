@@ -39,7 +39,7 @@ const EXAMPLE_PROJECTS = [
     },
     {
         id: 'flappybara',
-        title: 'Flappybara',
+        title: 'Capi Fly',
         thumbnail: thumbFlappybara,
         data: flappybara
     }
